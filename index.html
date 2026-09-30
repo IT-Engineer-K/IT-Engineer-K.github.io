@@ -79,6 +79,7 @@ nav ul a:hover{color:var(--text)}
 .with-ico a{text-decoration:none}
 .card h3 a{text-decoration:none}
 .card p a{color:var(--text)}
+.timeline p a{color:var(--text);text-decoration:underline;text-decoration-color:var(--peach)}
 .plist{list-style:none;display:grid;gap:12px}
 .plist li{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;border-bottom:1px dashed var(--line);padding-bottom:10px}
 .plist li:last-child{border-bottom:none;padding-bottom:0}
@@ -132,6 +133,7 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
     <div style="display:flex;align-items:center">
       <ul>
         <li><a href="#about">About</a></li>
+        <li><a href="#history">History</a></li>
         <li><a href="#vision">Vision</a></li>
         <li><a href="#works">Works</a></li>
         <li><a href="#research">Research</a></li>
@@ -150,7 +152,7 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
   <p class="en">Koju Funahara ／ こうじゅ</p>
   <p class="tag"><b>AIと、心と、宇宙のこと。</b><br>機械学習を研究しながら、使われるプロダクトを開発・運営しています。</p>
   <div class="chips" style="justify-content:center;margin-top:18px">
-    <span class="chip">理系大学生</span><span class="chip">チック症</span><span class="chip">ADHD</span><span class="chip">INFP-T</span><span class="chip">精神障害者手帳</span><span class="chip">食品衛生責任者</span>
+    <span class="chip">ベトナム育ち</span><span class="chip">理系大学生</span><span class="chip">チック症</span><span class="chip">ADHD</span><span class="chip">INFP-T</span><span class="chip">精神障害者手帳</span><span class="chip">食品衛生責任者</span>
   </div>
   <div class="links">
     <a class="btn" href="https://cocorobot.me" target="_blank" rel="noopener"><img src="images/cocorobot.svg" alt="" class="ico"> こころぼっと</a>
@@ -169,7 +171,8 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
     <div class="card">
       <dl class="profile">
         <dt>名前</dt><dd>船原 滉樹（ふなはら こうじゅ）</dd>
-        <dt>所属</dt><dd>東京電機大学 システムデザイン工学部 情報システム工学科 4年</dd>
+        <dt>育ち</dt><dd>ベトナム</dd>
+        <dt>所属</dt><dd>東京電機大学 システムデザイン工学部 情報システム工学科 4年（2023年4月入学）</dd>
         <dt>研究室</dt><dd>無線通信セキュリティ研究室（朱研究室）</dd>
         <dt>進路</dt><dd>2027年4月〜 東京電機大学大学院（前田研究室・データサイエンス／機械学習）進学予定</dd>
         <dt>活動</dt><dd>メンタルサポートAI「こころぼっと」の開発・運営</dd>
@@ -179,6 +182,41 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
         <dt>TA</dt><dd>東京電機大学のドローン講習会（2025）でTA。スライドに英語の発表者ノートを作成</dd>
         <dt>資格</dt><dd>食品衛生責任者</dd>
       </dl>
+    </div>
+  </section>
+
+  <section id="history" class="reveal" style="--dot:var(--mint)">
+    <h2>History</h2>
+    <div class="card">
+      <ul class="timeline">
+        <li><div class="when">幼少期</div>
+          <h3>ベトナムで育つ</h3>
+          <p>ブロック遊びが好きな子どもだった。</p></li>
+        <li><div class="when">高校時代</div>
+          <h3>ものづくりを独学で始める</h3>
+          <p>Scratchでゲームをつくり始め、UnityとAndroidアプリ開発を独学。趣味で機械学習モデルも自作。</p></li>
+        <li><div class="when">2021年</div>
+          <h3>GitHubで作品の公開を始める</h3>
+          <p>Unityのゲーム、<a href="https://it-engineer-k.github.io/YouTube-API-Code/">YouTube Data APIのコード</a>、<a href="https://it-engineer-k.github.io/Markov-chain/">マルコフ連鎖の文章生成</a>、<a href="https://it-engineer-k.github.io/img-rotation/">画像回転ツール</a>などを公開。</p></li>
+        <li><div class="when">2022年</div>
+          <h3>Androidアプリ「ロック画メモ」をリリース</h3>
+          <p>3月に<a href="https://it-engineer-k.github.io/myAd/MU/ad.html">ロック画メモ</a>を公開。4月にUnityゲーム<a href="https://it-engineer-k.github.io/MyApp/Space_Shooter_2D/">Space Shooter 2D</a>・Flight In Shinjuku、<a href="https://it-engineer-k.github.io/Beat/">うなり実験</a>を公開。</p></li>
+        <li><div class="when">2023年</div>
+          <h3>東京電機大学に入学</h3>
+          <p>2月に<a href="https://it-engineer-k.github.io/mood-moriage-gakudan/">ムード盛り上げシステム</a>を公開。4月、東京電機大学 システムデザイン工学部 情報システム工学科に入学。</p></li>
+        <li><div class="when">2024年</div>
+          <h3><a href="https://github.com/IT-Engineer-K/OthelloArena">OthelloArena</a> を開発</h3></li>
+        <li><div class="when">2025年</div>
+          <h3>ゆるたす開発、TOEIC 615点</h3>
+          <p>6月に進捗管理アプリ<a href="https://it-engineer-k.github.io/yutrutasu/">ゆるたす</a>の開発を開始。ドローン講習会でTA。11月にTOEIC L&amp;R 615点。</p></li>
+        <li><div class="when">2026年</div>
+          <h3>ひとやすみタロット公開、大学院に合格内定</h3>
+          <p>3〜4月に<a href="https://github.com/IT-Engineer-K/AI-life-adviser">AI-life-adviser</a>・<a href="https://github.com/IT-Engineer-K/MCP-practive">MCPサーバの自作</a>・<a href="https://github.com/IT-Engineer-K/Code-Dirt-Checker">Code-Dirt-Checker</a>を公開。こころぼっとの累計のやり取りが約5万回に（8月時点）。9月に<a href="https://it-engineer-k.github.io/TalotWeb/">ひとやすみタロット</a>を公開。東京電機大学大学院の合格内定。</p></li>
+        <li><div class="when">2027年4月</div>
+          <h3>東京電機大学大学院に進学予定</h3>
+          <p>前田研究室（データサイエンス／機械学習）に所属予定。</p></li>
+      </ul>
+      <p style="margin-top:18px;font-size:.8rem">※ 2021年以降の時期は、主に GitHub リポジトリの作成時期にもとづく。</p>
     </div>
   </section>
 
@@ -264,8 +302,12 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
   <section id="playground" class="reveal" style="--dot:var(--lav)">
     <h2>Playground</h2>
     <div class="card">
-      <p style="margin-bottom:14px">これまでに GitHub Pages で公開してきた小さな作品やメモ。</p>
+      <p style="margin-bottom:14px">GitHub で公開してきた小さな作品やメモ。</p>
       <ul class="plist">
+        <li><a href="https://github.com/IT-Engineer-K/Code-Dirt-Checker" target="_blank" rel="noopener">Code-Dirt-Checker</a><span>AIと人が書き散らかしたコードを検出する。</span></li>
+        <li><a href="https://github.com/IT-Engineer-K/AI-life-adviser" target="_blank" rel="noopener">AI-life-adviser</a><span>Google カレンダーなどから情報を取得し、ほめてくれるAI。</span></li>
+        <li><a href="https://github.com/IT-Engineer-K/MCP-practive" target="_blank" rel="noopener">MCP-practive</a><span>MCPの理解を深めるために、APIとMCPサーバを自作。</span></li>
+        <li><a href="https://github.com/IT-Engineer-K/pip-install-practice-even-number" target="_blank" rel="noopener">偶数判定パッケージ</a><span>pip install できる偶数判定プログラム。</span></li>
         <li><a href="https://it-engineer-k.github.io/mood-moriage-gakudan/" target="_blank" rel="noopener">ムード盛り上げシステム</a><span>話しかけた内容や録音した音声に合わせて、曲を流すWebアプリ。</span></li>
         <li><a href="https://it-engineer-k.github.io/MyApp/Space_Shooter_2D/" target="_blank" rel="noopener">Space Shooter 2D</a><span>Unityで作った2Dシューティング。ブラウザで遊べる。</span></li>
         <li><a href="https://it-engineer-k.github.io/MyApp/Flight_In_Shinjuku/privacy_policy.html" target="_blank" rel="noopener">Flight In Shinjuku</a><span>スマホ向けゲームのプライバシーポリシー。</span></li>
