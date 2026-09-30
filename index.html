@@ -74,6 +74,10 @@ nav ul a:hover{color:var(--text)}
   background:var(--surface);border:1px solid var(--line);text-decoration:none;font-size:.9rem;
   box-shadow:var(--shadow);transition:transform .2s}
 .btn:hover{transform:translateY(-2px)}
+.ico{height:16px;width:auto}
+.with-ico{display:flex;align-items:center;gap:10px}
+.with-ico a{text-decoration:none}
+.ico-lg{height:30px;width:auto}
 
 /* sections */
 section{padding:56px 0}
@@ -137,7 +141,7 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
     <span class="chip">理系大学生</span><span class="chip">チック症</span><span class="chip">ADHD</span><span class="chip">INFP-T</span><span class="chip">精神障害者手帳</span><span class="chip">食品衛生責任者</span>
   </div>
   <div class="links">
-    <a class="btn" href="https://cocorobot.me" target="_blank" rel="noopener">💬 こころぼっと</a>
+    <a class="btn" href="https://cocorobot.me" target="_blank" rel="noopener"><img src="images/cocorobot.svg" alt="" class="ico"> こころぼっと</a>
     <a class="btn" href="https://github.com/IT-Engineer-K" target="_blank" rel="noopener">🐙 GitHub</a>
     <a class="btn" href="https://x.com/IT16710274" target="_blank" rel="noopener">𝕏 こんじゅー</a>
     <a class="btn" href="https://x.com/Alef2l" target="_blank" rel="noopener">𝕏 フロンティアAI研究所</a>
@@ -181,8 +185,8 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
     <div class="grid">
       <div class="card">
         <div class="meta">Web サービス ／ 運営中</div>
-        <h3>こころぼっと</h3>
-        <p>LLMベースのメンタルウェルネスAIチャット。アカウントなしで気軽に話せる設計。累計約5万回のやり取り（2026年8月時点）。応答品質を「感情の受容・感情変化の追跡・対話のペース・認知行動的サポート」の4軸で評価する仕組みを構築中。</p>
+        <h3 class="with-ico"><img src="images/cocorobot.svg" alt="こころぼっとのアイコン" class="ico-lg"><a href="https://cocorobot.me" target="_blank" rel="noopener">こころぼっと</a></h3>
+        <p>LLMベースのメンタルウェルネスAIチャット。アカウントなしで気軽に話せる設計。累計約5万回のやり取り（2026年8月時点）。</p>
         <span class="badge">🏆 TDUアイディアコンテスト 優秀賞</span>
         <div class="chips"><span class="chip">Django</span><span class="chip">Azure</span><span class="chip">LLM</span></div>
       </div>
@@ -212,8 +216,8 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
     <div class="card">
       <ul class="timeline">
         <li><div class="when">卒業研究（2026）</div>
-          <h3>拡散モデルによる温度変化にロバストなRF指紋認証</h3>
-          <p>無線機器固有の信号の癖（RF Fingerprint）で端末を識別する技術で、温度変化による精度低下を拡散モデル（DDPM/DDIM）のノイズ除去で改善することを目指す。</p></li>
+          <h3>拡散モデルによるノイズにロバストなRF指紋認証</h3>
+          <p>無線機器固有の信号の癖（RF Fingerprint）で端末を識別する技術で、ノイズによる識別精度の低下を拡散モデル（DDPM/DDIM）によるノイズ除去で改善することを目指す。</p></li>
         <li><div class="when">大学院で取り組みたいこと</div>
           <h3>Insertion Transformer によるコード生成</h3>
           <p>生成順序を自由にできれば、括弧を先に閉じてから中身を書くように「先に片づけるべき部分」から書けるのでは、という仮説。</p></li>

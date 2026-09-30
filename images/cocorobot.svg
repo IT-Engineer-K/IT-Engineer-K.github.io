@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" xmlns="http://www.w3.org/2000/svg" width="47.81" height="31.24"
+    viewBox="0 0 47.81 31.24">
+    <defs>
+        <style>
+            .cls-1{fill:#724e1b;}.cls-2{fill:#f9ea9f;}.cls-2,.cls-3{stroke:#6b4b21;stroke-miterlimit:10;stroke-width:.5px;}.cls-4{fill:#fff;}.cls-3{fill:none;stroke-linecap:round;}</style>
+    </defs>
+    <ellipse class="cls-2" cx="6.12" cy="16.03" rx="3.06" ry="7.4"
+        transform="translate(-9.9 9.88) rotate(-48.1)" />
+    <ellipse class="cls-2" cx="41.69" cy="16.03" rx="7.4" ry="3.06"
+        transform="translate(-.05 31.94) rotate(-41.9)" />
+    <ellipse class="cls-2" cx="24.03" cy="15.62" rx="18.71" ry="15.37" />
+    <path class="cls-4"
+        d="M24.03,7.06c6.62-5.49,14.79.91,14.79,5.87s-7.86,6.89-14.79,8.99c-6.93-2.1-14.79-4.02-14.79-8.99S17.41,1.57,24.03,7.06Z" />
+    <ellipse class="cls-1" cx="19.87" cy="13.43" rx="1" ry="1.66" />
+    <ellipse class="cls-1" cx="28.2" cy="13.43" rx="1" ry="1.66" />
+    <path class="cls-3" d="M25.37,17.03c-.12.16-.57.54-1.26.54-.7,0-1.14-.39-1.26-.54" />
+</svg>
