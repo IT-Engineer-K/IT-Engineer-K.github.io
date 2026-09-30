@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>船原 滉樹 | Koju Funahara</title>
+<meta name="description" content="船原滉樹（Koju）のプロフィールサイト。東京電機大学 情報システム工学科。こころぼっと運営。">
+<meta property="og:title" content="船原 滉樹 | Koju Funahara">
+<meta property="og:description" content="AIと、心と、宇宙のこと。船原滉樹のプロフィールサイト。">
+<meta property="og:type" content="website">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9861757930034185"
+     crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbf7f2; --surface:#ffffff; --text:#3d3a4b; --muted:#7a7589;
+  --peach:#f4a98f; --mint:#9dd6c4; --lav:#bcaee6; --sun:#f7d58b;
+  --line:#ece5dc; --shadow:0 8px 28px rgba(90,70,60,.08);
+  --chip:#f6efe7;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1f1d26; --surface:#2a2733; --text:#ece8f2; --muted:#a7a1b5;
+    --line:#3a3645; --shadow:0 8px 28px rgba(0,0,0,.3); --chip:#34303f; --hl:#8a5a78;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1f1d26; --surface:#2a2733; --text:#ece8f2; --muted:#a7a1b5;
+  --line:#3a3645; --shadow:0 8px 28px rgba(0,0,0,.3); --chip:#34303f; --hl:#8a5a78;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{overflow-x:clip}
+html{scroll-behavior:smooth}
+body{
+  font-family:"Zen Maru Gothic",system-ui,sans-serif;
+  background:var(--bg); color:var(--text);
+  line-height:1.85; letter-spacing:.02em;
+}
+a{color:inherit}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+
+/* nav */
+nav{position:sticky;top:0;z-index:10;backdrop-filter:blur(10px);
+  background:color-mix(in srgb,var(--bg) 80%,transparent);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+nav .logo{font-weight:900;text-decoration:none;font-size:1.1rem}
+nav .logo span{color:var(--peach)}
+nav ul{display:flex;gap:18px;list-style:none;font-size:.9rem}
+nav ul a{text-decoration:none;color:var(--muted)}
+nav ul a:hover{color:var(--text)}
+#theme{border:none;background:var(--chip);color:var(--text);border-radius:999px;
+  width:34px;height:34px;cursor:pointer;font-size:1rem;line-height:1;margin-left:12px;display:grid;place-items:center}
+@media(max-width:640px){nav ul{display:none}}
+
+/* hero */
+.hero{position:relative;padding:96px 0 80px;text-align:center}
+.blob{position:absolute;border-radius:50%;filter:blur(40px);opacity:.45;z-index:-1;
+  animation:float 12s ease-in-out infinite}
+.b1{width:280px;height:280px;background:var(--peach);top:20px;left:-60px}
+.b2{width:240px;height:240px;background:var(--mint);top:120px;right:-40px;animation-delay:-4s}
+.b3{width:200px;height:200px;background:var(--lav);bottom:-20px;left:40%;animation-delay:-8s}
+@keyframes float{50%{transform:translate(20px,-24px) scale(1.06)}}
+.avatar{width:120px;height:120px;border-radius:50%;margin:0 auto 24px;
+  background:linear-gradient(135deg,var(--peach),var(--lav));display:grid;place-items:center;
+  font-size:2.6rem;font-weight:900;color:#fff;box-shadow:var(--shadow)}
+.hero h1{font-size:clamp(2rem,6vw,3rem);font-weight:900;line-height:1.3}
+.hero .en{color:var(--muted);font-size:1rem;margin-top:4px}
+.hero .tag{margin-top:22px;font-size:1.05rem}
+.hero .tag b{background:linear-gradient(transparent 60%,color-mix(in srgb,var(--hl,var(--sun)) 70%,transparent) 60%)}
+.links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:999px;
+  background:var(--surface);border:1px solid var(--line);text-decoration:none;font-size:.9rem;
+  box-shadow:var(--shadow);transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+
+/* sections */
+section{padding:56px 0}
+h2{font-size:1.5rem;font-weight:900;margin-bottom:24px;display:flex;align-items:center;gap:10px}
+h2::before{content:"";width:14px;height:14px;border-radius:50%;background:var(--dot,var(--peach))}
+.card{background:var(--surface);border-radius:24px;padding:26px;box-shadow:var(--shadow);border:1px solid var(--line)}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card h3{font-size:1.1rem;margin-bottom:6px}
+.card p{color:var(--muted);font-size:.95rem}
+.meta{font-size:.8rem;color:var(--muted);margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{background:var(--chip);border-radius:999px;padding:3px 12px;font-size:.8rem}
+.badge{display:inline-block;background:var(--sun);color:#5a4520;border-radius:8px;padding:1px 10px;font-size:.78rem;font-weight:700;margin-top:10px}
+
+dl.profile{display:grid;grid-template-columns:auto 1fr;gap:10px 20px}
+dl.profile dt{color:var(--muted);font-size:.9rem;white-space:nowrap}
+@media(max-width:480px){dl.profile{grid-template-columns:1fr;gap:2px}dl.profile dd{margin-bottom:10px}}
+
+.vision{display:grid;gap:14px}
+.vision li{list-style:none;display:flex;gap:14px;align-items:flex-start}
+.vision .ic{flex:none;width:44px;height:44px;border-radius:14px;display:grid;place-items:center;font-size:1.3rem}
+
+.timeline{border-left:3px dashed var(--line);padding-left:22px;display:grid;gap:22px}
+.timeline li{list-style:none;position:relative}
+.timeline li::before{content:"";position:absolute;left:-31px;top:8px;width:14px;height:14px;border-radius:50%;
+  background:var(--mint);border:3px solid var(--bg)}
+.timeline .when{font-size:.8rem;color:var(--muted)}
+
+footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem}
+
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s,transform .7s}
+.reveal.show{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){.blob{animation:none}.reveal{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#top">Koju<span>.</span></a>
+    <div style="display:flex;align-items:center">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#vision">Vision</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#likes">Likes</a></li>
+      </ul>
+      <button id="theme" aria-label="テーマ切替">◐</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap" id="top">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="avatar">滉</div>
+  <h1>船原 滉樹</h1>
+  <p class="en">Koju Funahara ／ こうじゅ</p>
+  <p class="tag"><b>AIと、心と、宇宙のこと。</b><br>つくりながら考えている学生エンジニアです。</p>
+  <div class="links">
+    <a class="btn" href="https://cocorobot.me" target="_blank" rel="noopener">💬 こころぼっと</a>
+    <a class="btn" href="https://github.com/IT-Engineer-K" target="_blank" rel="noopener">🐙 GitHub</a>
+    <a class="btn" href="https://x.com/IT16710274" target="_blank" rel="noopener">𝕏 こんじゅー</a>
+    <a class="btn" href="https://x.com/Alef2l" target="_blank" rel="noopener">𝕏 フロンティアAI研究所</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="about" class="reveal">
+    <h2>About</h2>
+    <div class="card">
+      <dl class="profile">
+        <dt>名前</dt><dd>船原 滉樹（ふなはら こうじゅ）</dd>
+        <dt>所属</dt><dd>東京電機大学 システムデザイン工学部 情報システム工学科 4年</dd>
+        <dt>研究室</dt><dd>無線通信セキュリティ研究室（朱研究室）</dd>
+        <dt>進路</dt><dd>2027年4月〜 東京電機大学大学院（前田研究室・データサイエンス／機械学習）進学予定</dd>
+        <dt>活動</dt><dd>メンタルサポートAI「こころぼっと」の開発・運営</dd>
+        <dt>資格</dt><dd>食品衛生責任者</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section id="vision" class="reveal" style="--dot:var(--lav)">
+    <h2>Vision</h2>
+    <div class="card">
+      <ul class="vision">
+        <li><span class="ic" style="background:color-mix(in srgb,var(--lav) 35%,transparent)">🧠</span>
+          <div><h3>AI基盤モデルをつくるスタートアップ</h3><p>自前の基盤モデルを開発する会社を立ち上げたい。</p></div></li>
+        <li><span class="ic" style="background:color-mix(in srgb,var(--mint) 35%,transparent)">🤖</span>
+          <div><h3>AIが経営するロボット開発会社</h3><p>ロボット開発事業を、AIが完全に経営する会社をつくりたい。</p></div></li>
+        <li><span class="ic" style="background:color-mix(in srgb,var(--peach) 35%,transparent)">🚀</span>
+          <div><h3>フォン・ノイマン探査機</h3><p>すべての地球人が、宇宙の彼方の情報にアクセスできるようにしたい。</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="works" class="reveal" style="--dot:var(--mint)">
+    <h2>Works</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="meta">Web サービス ／ 運営中</div>
+        <h3>こころぼっと</h3>
+        <p>LLMベースのメンタルウェルネスAIチャット。アカウントなしで気軽に話せる設計。累計約5万回のやり取り（2026年8月時点）。応答品質を「感情の受容・感情変化の追跡・対話のペース・認知行動的サポート」の4軸で評価する仕組みを構築中。</p>
+        <span class="badge">🏆 TDUアイディアコンテスト 優秀賞</span>
+        <div class="chips"><span class="chip">Django</span><span class="chip">Azure</span><span class="chip">LLM</span></div>
+      </div>
+      <div class="card">
+        <div class="meta">個人プロジェクト ／ 進行中</div>
+        <h3>Law Loop</h3>
+        <p>法令の定義同士の依存関係をグラフにして、定義の「循環」を検知するツール。まずは労働基準法から。いずれ辞書の定義の循環も調べたい。</p>
+        <div class="chips"><span class="chip">Python</span><span class="chip">networkx</span><span class="chip">Kaggle</span></div>
+      </div>
+      <div class="card">
+        <div class="meta">Android アプリ</div>
+        <h3>ロック画メモ</h3>
+        <p>ロック画面にメモを表示できるAndroidアプリ。</p>
+        <div class="chips"><span class="chip">Android</span></div>
+      </div>
+      <div class="card">
+        <div class="meta">アプリ</div>
+        <h3>Positive Sleep</h3>
+        <p>睡眠をテーマにしたアプリ。広告収益で運用。</p>
+        <div class="chips"><span class="chip">AdMob</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="research" class="reveal" style="--dot:var(--sun)">
+    <h2>Research</h2>
+    <div class="card">
+      <ul class="timeline">
+        <li><div class="when">卒業研究（2026）</div>
+          <h3>拡散モデルによる温度変化にロバストなRF指紋認証</h3>
+          <p>無線機器固有の信号の癖（RF Fingerprint）で端末を識別する技術で、温度変化による精度低下を拡散モデル（DDPM/DDIM）のノイズ除去で改善することを目指す。</p></li>
+        <li><div class="when">大学院で取り組みたいこと</div>
+          <h3>Insertion Transformer によるコード生成</h3>
+          <p>生成順序を自由にできれば、括弧を先に閉じてから中身を書くように「先に片づけるべき部分」から書けるのでは、という仮説。</p></li>
+        <li><div class="when">これまで</div>
+          <h3>二重降下領域における破滅的忘却 ／ ResNetの活性化関数比較</h3>
+          <p>機械学習の数理的な振る舞いと生成モデルに関心がある。</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="likes" class="reveal" style="--dot:var(--peach)">
+    <h2>Likes</h2>
+    <div class="card">
+      <div class="chips" style="margin-top:0">
+        <span class="chip">🎹 ピアノ</span><span class="chip">🎤 カラオケ</span><span class="chip">🎩 マジック</span>
+        <span class="chip">🧘 ボディスキャン瞑想</span><span class="chip">🔭 光を集めること</span>
+        <span class="chip">⚛️ 物理</span><span class="chip">📈 経済</span><span class="chip">⚖️ 法律</span>
+        <span class="chip">📱 SNS・発信</span>
+      </div>
+      <p style="margin-top:16px">光を集める（集光）という行為にロマンを感じます。</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>お問い合わせは X の DM からどうぞ。</p>
+  <p style="margin-top:6px">© <span id="y"></span> Koju Funahara</p>
+</footer>
+
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); io.unobserve(e.target); } }), {threshold:.12});
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+const root = document.documentElement, btn = document.getElementById('theme');
+try { const t = localStorage.getItem('theme'); if (t) root.dataset.theme = t; } catch(e) {}
+btn.addEventListener('click', () => {
+  const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  root.dataset.theme = dark ? 'light' : 'dark';
+  try { localStorage.setItem('theme', root.dataset.theme); } catch(e) {}
+});
+</script>
+</body>
+</html>
