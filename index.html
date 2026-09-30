@@ -77,6 +77,14 @@ nav ul a:hover{color:var(--text)}
 .ico{height:16px;width:auto}
 .with-ico{display:flex;align-items:center;gap:10px}
 .with-ico a{text-decoration:none}
+.card h3 a{text-decoration:none}
+.card p a{color:var(--text)}
+.plist{list-style:none;display:grid;gap:12px}
+.plist li{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;border-bottom:1px dashed var(--line);padding-bottom:10px}
+.plist li:last-child{border-bottom:none;padding-bottom:0}
+.plist a{font-weight:700;text-decoration:none}
+.plist a::after{content:" ↗";color:var(--peach)}
+.plist span{color:var(--muted);font-size:.9rem}
 .ico-lg{height:30px;width:auto}
 
 /* sections */
@@ -124,6 +132,7 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
         <li><a href="#vision">Vision</a></li>
         <li><a href="#works">Works</a></li>
         <li><a href="#research">Research</a></li>
+        <li><a href="#playground">Playground</a></li>
         <li><a href="#likes">Likes</a></li>
       </ul>
       <button id="theme" aria-label="テーマ切替">◐</button>
@@ -191,6 +200,19 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
         <div class="chips"><span class="chip">Django</span><span class="chip">Azure</span><span class="chip">LLM</span></div>
       </div>
       <div class="card">
+        <div class="meta">Web ／ Android アプリ</div>
+        <h3 class="with-ico"><img src="https://it-engineer-k.github.io/TalotWeb/images/icon.svg" alt="" class="ico-lg" width="30" height="30"><a href="https://it-engineer-k.github.io/TalotWeb/" target="_blank" rel="noopener">ひとやすみタロット</a></h3>
+        <p>質問に答えてカードを引くだけ。占い師と話しているような流れで、やさしい言葉で占うタロットアプリ。会員登録なし。カード78枚の解説や、占いの読み物も公開中。</p>
+        <div class="chips"><span class="chip">Android</span><span class="chip">Python（静的サイト生成）</span></div>
+      </div>
+      <div class="card">
+        <div class="meta">アプリ</div>
+        <h3><a href="https://it-engineer-k.github.io/yutrutasu/" target="_blank" rel="noopener">ゆるたす</a></h3>
+        <p>やる気が出ない日でも「ちょっとやった」が記録できる、疲れやすい人のためのやさしい進捗管理アプリ。進捗は 0%／50%／100% の3段階。</p>
+        <p style="margin-top:6px;font-size:.85rem"><a href="https://it-engineer-k.github.io/yurutasu-privacy-policy/" target="_blank" rel="noopener">プライバシーポリシー</a></p>
+        <div class="chips"><span class="chip">Flutter</span><span class="chip">Dart</span></div>
+      </div>
+      <div class="card">
         <div class="meta">個人プロジェクト ／ 進行中</div>
         <h3>Law Loop</h3>
         <p>法令の定義同士の依存関係をグラフにして、定義の「循環」を検知するツール。まずは労働基準法から。いずれ辞書の定義の循環も調べたい。</p>
@@ -198,15 +220,16 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
       </div>
       <div class="card">
         <div class="meta">Android アプリ</div>
-        <h3>ロック画メモ</h3>
-        <p>ロック画面にメモを表示できるAndroidアプリ。</p>
-        <div class="chips"><span class="chip">Android</span></div>
+        <h3><a href="https://it-engineer-k.github.io/myAd/MU/ad.html" target="_blank" rel="noopener">ロック画メモ</a></h3>
+        <p>スマホのロック画面やホーム画面の壁紙にメモを表示するアプリ。持ち物メモや英単語帳に。</p>
+        <p style="margin-top:6px;font-size:.85rem"><a href="https://it-engineer-k.github.io/Lock-GA-Memo/privacy%20policy/" target="_blank" rel="noopener">プライバシーポリシー</a></p>
+        <div class="chips"><span class="chip">Android</span><span class="chip">AdMob</span></div>
       </div>
       <div class="card">
-        <div class="meta">アプリ</div>
-        <h3>Positive Sleep</h3>
+        <div class="meta">Android アプリ</div>
+        <h3><a href="https://github.com/IT-Engineer-K/Positive-Sleep" target="_blank" rel="noopener">Positive Sleep</a></h3>
         <p>睡眠をテーマにしたアプリ。広告収益で運用。</p>
-        <div class="chips"><span class="chip">AdMob</span></div>
+        <div class="chips"><span class="chip">Kotlin</span><span class="chip">AdMob</span></div>
       </div>
     </div>
   </section>
@@ -228,6 +251,24 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
     </div>
   </section>
 
+  <section id="playground" class="reveal" style="--dot:var(--lav)">
+    <h2>Playground</h2>
+    <div class="card">
+      <p style="margin-bottom:14px">これまでに GitHub Pages で公開してきた小さな作品やメモ。</p>
+      <ul class="plist">
+        <li><a href="https://it-engineer-k.github.io/mood-moriage-gakudan/" target="_blank" rel="noopener">ムード盛り上げシステム</a><span>話しかけた内容や録音した音声に合わせて、曲を流すWebアプリ。</span></li>
+        <li><a href="https://it-engineer-k.github.io/MyApp/Space_Shooter_2D/" target="_blank" rel="noopener">Space Shooter 2D</a><span>Unityで作った2Dシューティング。ブラウザで遊べる。</span></li>
+        <li><a href="https://it-engineer-k.github.io/MyApp/Flight_In_Shinjuku/privacy_policy.html" target="_blank" rel="noopener">Flight In Shinjuku</a><span>スマホ向けゲームのプライバシーポリシー。</span></li>
+        <li><a href="https://it-engineer-k.github.io/Beat/" target="_blank" rel="noopener">うなり実験</a><span>440〜450Hzの音を重ねて「うなり」を聴く実験ページ。</span></li>
+        <li><a href="https://it-engineer-k.github.io/img-rotation/" target="_blank" rel="noopener">画像回転</a><span>画像を回転させる小さなツール。</span></li>
+        <li><a href="https://it-engineer-k.github.io/image/shooting%20star/" target="_blank" rel="noopener">流れ星の素材</a><span>無料で使える流れ星の画像素材。</span></li>
+        <li><a href="https://it-engineer-k.github.io/Markov-chain/" target="_blank" rel="noopener">マルコフ連鎖で文章生成</a><span>janomeで形態素解析して文章をつくるコードのメモ。</span></li>
+        <li><a href="https://it-engineer-k.github.io/YouTube-API-Code/" target="_blank" rel="noopener">YouTubeのタイトル取得</a><span>YouTube Data APIで動画タイトルを取るコードのメモ。</span></li>
+        <li><a href="https://it-engineer-k.github.io/Konju/" target="_blank" rel="noopener">旧サイト「こんじゅー」</a><span>昔のプロフィールページ。</span></li>
+      </ul>
+    </div>
+  </section>
+
   <section id="likes" class="reveal" style="--dot:var(--peach)">
     <h2>Likes</h2>
     <div class="card">
@@ -245,11 +286,9 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
 
 <footer>
   <p>お問い合わせは X の DM からどうぞ。</p>
-  <p style="margin-top:6px">© <span id="y"></span> Koju Funahara</p>
 </footer>
 
 <script>
-document.getElementById('y').textContent = new Date().getFullYear();
 const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); io.unobserve(e.target); } }), {threshold:.12});
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 const root = document.documentElement, btn = document.getElementById('theme');
