@@ -8,6 +8,7 @@
 <meta property="og:title" content="船原 滉樹 | Koju Funahara">
 <meta property="og:description" content="AIと、心と、宇宙のこと。船原滉樹のプロフィールサイト。">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://it-engineer-k.github.io/images/koju.jpg">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9861757930034185"
      crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,9 +63,8 @@ nav ul a:hover{color:var(--text)}
 .b2{width:240px;height:240px;background:var(--mint);top:120px;right:-40px;animation-delay:-4s}
 .b3{width:200px;height:200px;background:var(--lav);bottom:-20px;left:40%;animation-delay:-8s}
 @keyframes float{50%{transform:translate(20px,-24px) scale(1.06)}}
-.avatar{width:120px;height:120px;border-radius:50%;margin:0 auto 24px;
-  background:linear-gradient(135deg,var(--peach),var(--lav));display:grid;place-items:center;
-  font-size:2.6rem;font-weight:900;color:#fff;box-shadow:var(--shadow)}
+.avatar{display:block;width:140px;height:140px;border-radius:50%;margin:0 auto 24px;object-fit:cover;
+  border:5px solid var(--surface);outline:3px solid color-mix(in srgb,var(--peach) 60%,transparent);box-shadow:var(--shadow)}
 .hero h1{font-size:clamp(2rem,6vw,3rem);font-weight:900;line-height:1.3}
 .hero .en{color:var(--muted);font-size:1rem;margin-top:4px}
 .hero .tag{margin-top:22px;font-size:1.05rem}
@@ -129,7 +129,7 @@ footer{text-align:center;padding:48px 0 64px;color:var(--muted);font-size:.85rem
 
 <header class="hero wrap" id="top">
   <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
-  <div class="avatar">滉</div>
+  <img class="avatar" src="images/koju.jpg" alt="船原滉樹の写真" width="140" height="140">
   <h1>船原 滉樹</h1>
   <p class="en">Koju Funahara ／ こうじゅ</p>
   <p class="tag"><b>AIと、心と、宇宙のこと。</b><br>つくりながら考えている学生エンジニアです。</p>
